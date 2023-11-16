@@ -29,7 +29,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="5dp"
-                android:text="Connexion"
+                android:text="Inscription"
                 android:textColor="@color/white"
                 android:textSize="22sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -70,14 +70,14 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
+            android:layout_margin="10dp"
             android:hint="Nom d'utilisateur"
             app:boxCornerRadiusBottomEnd="8dp"
             app:boxCornerRadiusBottomStart="8dp"
             app:boxCornerRadiusTopEnd="8dp"
             app:boxCornerRadiusTopStart="8dp"
             app:hintTextColor="@color/black"
-            android:padding="15dp"
+            android:padding="10dp"
 
             >
 
@@ -93,7 +93,29 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
+            android:layout_margin="10dp"
+            android:hint="e-mail"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusTopStart="8dp"
+            app:hintTextColor="@color/black"
+            android:padding="10dp"
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableStart="@drawable/baseline_mail_lock_24"
+                android:drawablePadding="25dp"
+                android:inputType="text"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:hint="Mot de passe"
             app:boxCornerRadiusBottomEnd="8dp"
             app:boxCornerRadiusBottomStart="8dp"
@@ -101,7 +123,7 @@
             app:boxCornerRadiusTopStart="8dp"
             app:passwordToggleEnabled="true"
             app:hintTextColor="@color/black"
-            android:padding="15dp"
+            android:padding="10dp"
 
             >
 
@@ -123,34 +145,35 @@
             android:textAllCaps="true"/>
 
         >
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_margin="4dp"
-    android:layout_gravity="center"
-    android:gravity="center"
-    android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
 
-        android:fontFamily="@font/dm_medium"
-        android:padding="5dp"
-        android:text="Vous n'avez pas de compte ?"
-        android:textColor="@color/black"
-        android:textSize="16sp" />
+                android:fontFamily="@font/dm_medium"
+                android:padding="5dp"
+                android:text="Vous n'avez pas de compte ?"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
 
-        android:fontFamily="@font/dm_bold"
-        android:padding="5dp"
-        android:text="Inscrivez-vous"
-        android:textColor="@color/button_color"
-        android:textSize="16sp"
-        android:onClick="register"/>
-</LinearLayout>
+                android:fontFamily="@font/dm_bold"
+                android:padding="5dp"
+                android:text="Inscrivez-vous"
+                android:textColor="@color/button_color"
+                android:textSize="16sp"/>
+
+
+        </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
