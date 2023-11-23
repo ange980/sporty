@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "827222648352",
+    "firebase_url": "https://sporty-459d7-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "sporty-459d7",
+    "storage_bucket": "sporty-459d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827222648352:android:3219223bed635df7af7e45",
+        "android_client_info": {
+          "package_name": "fr.ange980.sporty"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYf6MuJzIlcQO77jVOw622cl8vWWwDtUQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
