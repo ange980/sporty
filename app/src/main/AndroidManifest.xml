@@ -17,6 +17,9 @@
         android:theme="@style/Theme.Sporty"
         tools:targetApi="31">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 9206499 (refactor: improve MapsActivity)
         <activity
             android:name=".MyfeedActivity"
             android:exported="false" />
@@ -26,11 +29,15 @@
         <activity
             android:name=".SignInActivity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
         <activity
             android:name=".RegisterActivity"
 >>>>>>> 94d5d8118e3be2a7633ba97350b92f93a0781a28
+=======
+
+>>>>>>> parent of 9206499 (refactor: improve MapsActivity)
 =======
 
 >>>>>>> parent of 9206499 (refactor: improve MapsActivity)
