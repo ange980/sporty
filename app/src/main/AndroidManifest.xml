@@ -17,6 +17,10 @@
         android:theme="@style/Theme.Sporty"
         tools:targetApi="31">
         <activity
+            android:name=".Button_to_map"
+            android:exported="false"
+            android:label="@string/title_activity_button_to_map" />
+        <activity
             android:name=".MyfeedActivity"
             android:exported="false" />
         <activity
@@ -24,7 +28,6 @@
             android:exported="false" />
         <activity
             android:name=".SignInActivity"
-
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
