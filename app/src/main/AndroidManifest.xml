@@ -16,6 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Sporty"
         tools:targetApi="31">
+<<<<<<< HEAD
         <activity
             android:name=".Button_to_map"
             android:exported="false"
@@ -28,13 +29,42 @@
             android:exported="false" />
         <activity
             android:name=".SignInActivity"
+=======
+
+        <activity
+            android:name=".RegisterActivity"
+>>>>>>> 94d5d8118e3be2a7633ba97350b92f93a0781a28
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".Button_to_map"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".currentLocationActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".MyfeedActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".SignInActivity"
+            android:exported="false" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"

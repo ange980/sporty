@@ -1,5 +1,6 @@
 package fr.ange980.sporty
 
+<<<<<<< HEAD
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
@@ -33,3 +34,27 @@ class Button_to_map : AppCompatActivity() {
         navView.setupWithNavController(navController)
     }
 }
+=======
+import android.content.Intent
+import android.os.Bundle
+import android.view.View
+import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
+
+class Button_to_map : AppCompatActivity() {
+
+    lateinit var showMap: Button // Use lateinit to initialize later
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_button_to_map)
+
+        showMap = findViewById(R.id.showMap)
+
+        showMap.setOnClickListener {
+            val intent = Intent(this@Button_to_map, MapsActivity::class.java)
+            startActivity(intent)
+        }
+    }
+}
+>>>>>>> 94d5d8118e3be2a7633ba97350b92f93a0781a28
