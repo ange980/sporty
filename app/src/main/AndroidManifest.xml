@@ -18,10 +18,6 @@
         tools:targetApi="31">
 <<<<<<< HEAD
         <activity
-            android:name=".Button_to_map"
-            android:exported="false"
-            android:label="@string/title_activity_button_to_map" />
-        <activity
             android:name=".MyfeedActivity"
             android:exported="false" />
         <activity
@@ -29,11 +25,15 @@
             android:exported="false" />
         <activity
             android:name=".SignInActivity"
+<<<<<<< HEAD
 =======
 
         <activity
             android:name=".RegisterActivity"
 >>>>>>> 94d5d8118e3be2a7633ba97350b92f93a0781a28
+=======
+
+>>>>>>> parent of 9206499 (refactor: improve MapsActivity)
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
