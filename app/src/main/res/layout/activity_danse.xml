@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/eventImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dance"
+        android:contentDescription="Match de basket" />
+
+    <TextView
+        android:id="@+id/eventTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eventImage"
+        android:layout_marginTop="16dp"
+        android:text="Cours de danse"
+        android:textSize="24sp"
+        android:textColor="#333333" />
+
+    <TextView
+        android:id="@+id/eventDateLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eventTitle"
+        android:layout_marginTop="8dp"
+        android:text="04/01/2023 au 11/01/2023"
+        android:textSize="16sp"
+        android:textColor="#555555" />
+
+    <TextView
+        android:id="@+id/sportDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eventDateLocation"
+        android:layout_marginTop="16dp"
+        android:text="🎉Cours de Danse pour les Enfants de 10-11 ans 🎉\n
+\nNous sommes ravis d’annoncer que nous organisons un cours de danse spécial pour les enfants de 10 à 11 ans. C’est une occasion parfaite pour vos enfants de s’amuser, d’apprendre de nouveaux mouvements de danse et de faire de nouveaux amis !\n📅 Dates : Du 4 janvier 2023 au 11 janvier 2023
+\n👯‍♀️ Ce que nous offrons :
+\nDes cours amusants et interactifs
+\nUn environnement sûr et accueillant
+\nDes instructeurs de danse professionnels et sympathiques
+\nN’attendez plus, inscrivez vos enfants dès maintenant et laissez-les vivre une expérience inoubliable ! Pour plus d’informations, n’hésitez pas à nous contacter. Nous avons hâte de vous voir ! "
+        android:textSize="16sp"
+        android:textColor="#777777" />
+
+    <Button
+        android:id="@+id/readMoreButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sportDescription"
+        android:layout_marginTop="16dp"
+        android:background="#931717"
+        android:text="Quitter"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>
