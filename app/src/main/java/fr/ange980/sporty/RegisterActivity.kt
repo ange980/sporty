@@ -30,7 +30,7 @@ class RegisterActivity : AppCompatActivity() {
                 if(password==confpass){
                     firebaseAuth.createUserWithEmailAndPassword(email,password).addOnCompleteListener() {
                         if(it.isSuccessful) {
-                            val intent=Intent(this,MyfeedActivity::class.java)
+                            val intent=Intent(this,InterestFormActivity::class.java)
                             startActivity(intent)
                         }
                         else {
