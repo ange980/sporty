@@ -165,7 +165,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:drawableStart="@drawable/baseline_bar_chart_24"
-                    android:hint=" Niveau"
+                    android:hint="Niveau"
                     android:inputType="none">
 
                 </AutoCompleteTextView>
@@ -182,7 +182,7 @@
                     android:id="@+id/auto_complete2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Sports"
+                    android:hint=" Sports"
                     android:drawableStart="@drawable/baseline_sports_tennis_24"
                     android:inputType="none"
                     >
@@ -201,8 +201,9 @@
                     android:id="@+id/auto_complete3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Niveau"
-                    android:inputType="none">
+                    android:hint=" Niveau"
+                    android:inputType="none"
+                    android:drawableStart="@drawable/baseline_bar_chart_24">
 
                 </AutoCompleteTextView>
             </com.google.android.material.textfield.TextInputLayout>
