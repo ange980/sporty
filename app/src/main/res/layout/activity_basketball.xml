@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/eventImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/basket"
+        android:contentDescription="Match de basket" />
+
+    <TextView
+        android:id="@+id/eventTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eventImage"
+        android:layout_marginTop="16dp"
+        android:text="Match de basket"
+        android:textSize="24sp"
+        android:textColor="#333333" />
+
+    <TextView
+        android:id="@+id/eventDateLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eventTitle"
+        android:layout_marginTop="8dp"
+        android:text="02/01/2023, Stade André Breton"
+        android:textSize="16sp"
+        android:textColor="#555555" />
+
+    <TextView
+        android:id="@+id/sportDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eventDateLocation"
+        android:layout_marginTop="16dp"
+        android:text="Les Goelands affrontent les Jocker dans un match enflammé ce mardi soir à 19h. Le basket-ball ou basketball, fréquemment désigné par son abréviation basket, est un sport collectif de balle opposant deux équipes de cinq joueurs sur un terrain rectangulaire. L'objectif de chaque équipe est de faire passer un ballon au sein d'un arceau de 45 cm4 de diamètre, fixé à un panneau et placé à 3,05 m du sol : le panier. Chaque panier inscrit rapporte deux points à son équipe, à l'exception des tirs effectués au-delà de la ligne des trois points (qui rapportent trois points) et des lancers francs accordés à la suite d'une faute (qui rapportent un point). L'équipe avec le nombre de points le plus important remporte la partie.  Le basket-ball se pratique exclusivement à la main, et les joueurs peuvent se déplacer balle en main en dribblant sur le sol ou en effectuant deux pas maximum sans dribbler."
+        android:textSize="16sp"
+        android:textColor="#777777" />
+
+    <Button
+        android:id="@+id/readMoreButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sportDescription"
+        android:layout_marginTop="16dp"
+        android:background="#8A1E1E"
+        android:text="Quitter"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>
