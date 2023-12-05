@@ -237,7 +237,8 @@
             android:contentDescription="Map"
             android:layout_margin="13dp"
             android:foreground="@drawable/__89319_flat_location_logo_simbolo_de_localizao_vermelho_clipart"
-            android:foregroundTint="#B12020" />
+            android:foregroundTint="#B12020"
+            android:onClick="maps"/>
 
         <Button
             android:id="@+id/button6"
@@ -247,7 +248,8 @@
             android:layout_margin="13dp"
             android:contentDescription=" "
             android:foreground="@drawable/basketball"
-            android:foregroundTint="#B12020"/>
+            android:foregroundTint="#B12020"
+            android:onClick="events"/>
 
         <Button
             android:id="@+id/button7"
@@ -256,7 +258,8 @@
             android:backgroundTint="#FFFFFF"
             android:layout_margin="13dp"
             android:contentDescription="Amis"
-            android:foreground="@drawable/multiple_users_silhouette"/>
+            android:foreground="@drawable/multiple_users_silhouette"
+            android:onClick="friends"/>
 
         <Button
             android:id="@+id/button2"
@@ -266,7 +269,8 @@
             android:contentDescription="Parametres"
             android:layout_margin="13dp"
             android:foreground="@drawable/parametre"
-            android:foregroundTint="#B12020"/>
+            android:foregroundTint="#B12020"
+            android:onClick="profile"/>
     </LinearLayout>
 
     <!-- Additional views or components can be added here -->
