@@ -50,7 +50,8 @@
                     android:background="#CCCCCC"
                     android:foreground="@drawable/basket"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/basket" />
+                    android:src="@drawable/basket"
+                    android:onClick="bask"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -89,7 +90,8 @@
                     android:layout_weight="1"
                     android:background="#CCCCCC"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/dance" />
+                    android:src="@drawable/dance"
+                    android:onClick="dans"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -187,7 +189,8 @@
                     android:layout_height="150dp"
                     android:background="#CCCCCC"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/jo" />
+                    android:src="@drawable/jo"
+                    android:onClick="lien"/>
 
                 <TextView
                     android:layout_width="match_parent"

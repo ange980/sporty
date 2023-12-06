@@ -150,7 +150,8 @@
             android:padding="20dp"
             android:text="S'inscrire"
             android:textColor="@color/white"
-            android:textAllCaps="true"/>
+            android:textAllCaps="true"
+            android:onClick="nextpage"/>
 
         >
         <LinearLayout

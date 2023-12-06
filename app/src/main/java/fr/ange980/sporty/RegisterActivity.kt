@@ -53,6 +53,12 @@ class RegisterActivity : AppCompatActivity() {
         val intent = Intent(this, SignInActivity::class.java)
         startActivity(Intent(intent))
     }
+    public fun nextpage() {
+
+        val intent = Intent(this, InterestFormActivity::class.java)
+        startActivity(Intent(intent))
+
+    }
     }
 
 

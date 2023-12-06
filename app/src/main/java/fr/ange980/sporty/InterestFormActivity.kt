@@ -1,7 +1,9 @@
 package fr.ange980.sporty
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.AutoCompleteTextView
@@ -64,5 +66,9 @@ class InterestFormActivity : AppCompatActivity() {
                 val freqSelected = adapterView.getItemAtPosition(i)
                 Toast.makeText(this, "Niveau: $freqSelected", Toast.LENGTH_SHORT).show()
             }
+    }
+    fun even (view : View){
+        val intent = Intent(this,EvenementActivity::class.java)
+        startActivity(intent)
     }
 }
